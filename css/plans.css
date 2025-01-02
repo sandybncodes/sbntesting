@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+    background: linear-gradient(180deg, whitesmoke, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+main h3 {
+    font-weight: 500;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 1.5rem;
+    color: #999;
+    max-width: 70%;
+    margin: auto;
+}
+
+.plans {
+    padding: 3rem;
+}
+
+.plans .cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plans .cards .card {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.plans .cards .card h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.plans .cards .card p {
+    color: gray;
+}
+
+.plans .cards .card details {
+    transition: 0.3s;
+    user-select: none;
+}
+
+.plans .cards .card details summary {
+    font-weight: 500;
+    font-size: 1rem;
+    user-select: none;
+    list-style: none;
+}
+
+.plans .cards .card details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plans .cards .card details ul li {
+    display: flex;
+    align-items: center;
+}
+
+.plans .cards .card details ul li img {
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .plans .cards {
+        display: block;
+    }
+
+    .plans .cards .card {
+        margin: 1rem;
+        border-radius: 5px;
+    }
+}
