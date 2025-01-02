@@ -1,0 +1,256 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+    background: linear-gradient(-135deg, #15BDC9, #176384);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+#section1 {
+    height: 85vh;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    user-select: none;
+}
+
+#intro-container {
+    margin: 1.5rem;
+    color: whitesmoke;
+    width: 50%;
+}
+
+#intro-container #principal-title {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+#intro-container #principal-title b {
+    background-color: #176384;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#intro-container #secundar-title {
+    font-size: 1rem;
+    color: lightcyan;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#contact-btn {
+    background-color: whitesmoke;
+    color: #176384;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#contact-btn:hover {
+    background-color: #154c67;
+    color: whitesmoke;
+}
+
+#intro-image {
+    margin: auto;
+}
+
+#intro-image img {
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* Section 2 style */
+#why-testing {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#why-testing .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#why-testing h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#why-testing p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Card Styles */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-title {
+    display: flex;
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #176384;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.card .card-icon {
+    height: 50px;
+    margin-right: 5px;
+}
+
+/* Call-to-Action Button */
+.cta {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cta a {
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    background-color: #176384;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta a:hover {
+    background-color: #154c67;
+}
+
+/*Why choose us style*/
+#why-choose-us {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#why-choose-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#why-choose-us h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#why-choose-us p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.check-icon {
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+/* industries-we-serve styles */
+.industries-we-serve {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.industries-we-serve .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.industries-we-serve .container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.industries-we-serve p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.industries-we-serve .sections {
+    display: flex;
+    overflow: auto;
+}
+
+.industries-we-serve .sections .section {
+    text-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    min-width: 150px;
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.industries-we-serve .sections .section h3 {
+    font-size: 16px;
+}
+
+.industries-we-serve .section-frame #frame-content {
+    width: 100%;
+    height: 10rem;
+    border: none;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 800px) {
+    #intro-container {
+        width: auto;
+        text-align: center;
+    }
+
+    #intro-image {
+        display: none;
+    }
+}
