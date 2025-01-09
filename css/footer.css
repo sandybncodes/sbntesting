@@ -29,3 +29,8 @@ footer .social-media a i:hover {
     background-color: black;
     color: whitesmoke;
 }
+
+.email {
+    color: whitesmoke;
+    text-align: center;
+}
