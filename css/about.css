@@ -31,7 +31,7 @@ main h2 {
 }
 
 main p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: lightcyan;
     max-width: 70%;
     margin: auto;
@@ -231,6 +231,7 @@ main p {
 @media screen and (max-width: 800px) {
     main {
         width: 85%;
+        height: auto;
     }
 
     .container .img_container {
