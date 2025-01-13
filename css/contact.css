@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+    background: linear-gradient(180deg, whitesmoke, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+main {
+    height: 50vh;
+    background: url("../resources/images/contact-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex: 1;
+}
+
+main .content {
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+main div h2 {
+    font-size: 2rem;
+    color: #15BDC9;
+}
+
+main div p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+.contact {
+    padding: 2rem;
+    background: linear-gradient(180deg, white, whitesmoke, lightcyan);
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-list .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-list .item i {
+    font-size: 1.5rem;
+    color: #176384;
+}
+
+.contact-list .item .title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact-list .item .description {
+    color: gray;;
+}
+
+.contact-list .item .link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #176384;
+}
+
+.contact-list .item .link:hover {
+    text-decoration: underline;
+}
